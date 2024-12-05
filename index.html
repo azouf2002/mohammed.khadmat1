@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد للخدمات العامة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('file:///C:/Users/alwal/OneDrive/%D8%A7%D9%84%D8%B5%D9%88%D8%B1/%D8%A8.png'); /* صورة الخلفية */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #003366; /* اللون الكحلي للنص */
+        }
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.9); /* خلفية شفافة */
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 30px 0;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #003366;
+        }
+        .header p {
+            margin: 10px 0;
+            font-size: 20px;
+            color: #003366;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* عمودان */
+            gap: 20px;
+            justify-items: center;
+            margin: 30px 0;
+        }
+        .service {
+            border: 5px solid #003366; /* الإطار الكحلي */
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+            width: 200px; /* عرض موحد */
+        }
+        .service:hover {
+            transform: scale(1.05);
+        }
+        .service img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover; /* الحفاظ على تناسق الصورة */
+        }
+        .service h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #003366;
+            color: white;
+            font-size: 18px; /* حجم النص */
+        }
+        .whatsapp {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .whatsapp img {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+            vertical-align: middle;
+            transition: transform 0.3s ease;
+        }
+        .whatsapp img:hover {
+            transform: scale(1.2);
+        }
+        .footer {
+            text-align: center;
+            font-size: 16px;
+            margin: 40px 0;
+        }
+        .footer p {
+            margin: 10px 0;
+        }
+        .footer a {
+            color: #003366;
+            text-decoration: none;
+            font-size: 18px; /* تكبير النص */
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="header">
+            <h1>محمد للخدمات العامة</h1>
+            <p>نقدم خدمات: توكلنا، نافذ، مساند، موارد بشرية، حساب المواطن، الضمان، وغيرها من الخدمات.</p>
+        </div>
+
+        <div class="services">
+            <!-- خدمة توكلنا -->
+            <a href="https://tawakkalna.sdaia.gov.sa/" class="service" target="_blank">
+                <img src="file:///C:/Users/alwal/Downloads/th.jpg" alt="توكلنا">
+                <h2>توكلنا</h2>
+            </a>
+
+            <!-- خدمة نافذ -->
+            <a href="https://www.nafez.gov.sa/" class="service" target="_blank">
+                <img src="file:///C:/Users/alwal/OneDrive/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA/photo_2024-12-05_23-19-55.jpg" alt="نافذ">
+                <h2>نافذ</h2>
+            </a>
+
+            <!-- خدمة مساند -->
+            <a href="https://musaned.sa/" class="service" target="_blank">
+                <img src="file:///C:/Users/alwal/OneDrive/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA/photo_2024-12-05_23-20-03.jpg" alt="مساند">
+                <h2>مساند</h2>
+            </a>
+
+            <!-- خدمة الموارد البشرية -->
+            <a href="https://www.mol.gov.sa/" class="service" target="_blank">
+
+<img src="file:///C:/Users/alwal/OneDrive/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA/photo_2024-12-05_23-20-09.jpg" alt="موارد بشرية">
+                <h2>موارد بشرية</h2>
+            </a>
+        </div>
+
+        <!-- أيقونة واتساب -->
+        <div class="whatsapp">
+            <a href="https://wa.me/966558079915" target="_blank">
+                <img src="file:///C:/Users/alwal/OneDrive/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA/photo_2024-12-05_23-20-20.jpg" alt="تواصل واتساب">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>للتواصل عبر الواتساب:</p>
+        <a href="https://wa.me/966558079915" target="_blank">+966 55 807 9915</a>
+    </div>
+</body>
+</html>
